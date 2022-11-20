@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rlEditToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivICBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/no"
+            android:src="@drawable/ic_back"
+            app:tint="#312161" />
+
+        <TextView
+            android:id="@+id/tvDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/ivICBack"
+            android:textStyle="bold"
+            android:text="@string/notes"
+            android:textColor="#312161"
+            android:textSize="25sp"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/ivICCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/no"
+            android:src="@drawable/ic_check_no_circle"
+            app:tint="#312161" />
+
+        <ImageView
+            android:id="@+id/calendarPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70dp"
+            android:contentDescription="@string/no"
+            android:src="@drawable/ic_calendar"
+            app:tint="#312161" />
+
+        <ImageView
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="120dp"
+            android:contentDescription="@string/no"
+            android:src="@drawable/ic_more_time"
+            app:tint="#312161" />
+
+        <ImageView
+            android:id="@+id/palettePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="170dp"
+            android:contentDescription="@string/no"
+            android:src="@drawable/ic_palette"
+            app:tint="#312161" />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/edtNoteDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rlEditToolBar"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@null"
+        android:gravity="start|top"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:textColor="#8962F8"
+        android:textColorHint="#E7DFFF"
+        android:textSize="24sp"
+        tools:ignore="LabelFor" />
+
+</RelativeLayout>
