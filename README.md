@@ -229,8 +229,8 @@
 
 # QR khảo sát
 
-<img src="https://user-images.githubusercontent.com/84316258/203468046-70a24a00-3a66-4313-813c-63b5fa7a4a45.png" width="600" />
+<img src="https://user-images.githubusercontent.com/84316258/203468046-70a24a00-3a66-4313-813c-63b5fa7a4a45.png" width="400" />
 
 # QR Project
 
-<img src="https://user-images.githubusercontent.com/84316258/203468388-1abd1856-5024-4404-b9fd-bf15e85edeb9.png" width="600" />
+<img src="https://user-images.githubusercontent.com/84316258/203468388-1abd1856-5024-4404-b9fd-bf15e85edeb9.png" width="400" />
